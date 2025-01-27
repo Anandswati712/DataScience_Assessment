@@ -56,7 +56,9 @@ Task 2: Lookalike Model
 Build a Lookalike Model that recommends 3 similar customers based on their profile and transaction history. The model considers both customer and product information and provides a similarity score for each recommendation.
 
 Deliverables:
+
 Swati_Anand_Lookalike.ipynb: Jupyter Notebook explaining the model development.
+
 Swati_Anand_Lookalike.csv: CSV file mapping customer IDs to the top 3 lookalikes with similarity scores.
 
 Task 3: Customer Segmentation / Clustering
@@ -64,20 +66,36 @@ Task 3: Customer Segmentation / Clustering
 Perform customer segmentation using clustering techniques, leveraging both customer profile and transaction information. Evaluate the clusters using the Davies-Bouldin (DB) Index and visualize the results.
 
 Deliverables:
+
 Swati_Anand_Clustering.ipynb: Jupyter Notebook containing clustering code and visualizations.
+
 Swati_Anand_Clustering.pdf: PDF report summarizing clustering results.
 
 |-- README.md
+
 |-- Data/
+
 |   |-- Customers.csv
+
 |   |-- Products.csv
+
 |   |-- Transactions.csv
+
 |-- EDA/
+
 |   |-- Swati_Anand_EDA.ipynb
+
 |   |-- Swati_Anand_EDA.pdf
+
 |-- LookalikeModel/
+
 |   |-- Swati_Anand_Lookalike.ipynb
+
 |   |-- Swati_Anand_Lookalike.csv
+
 |-- Clustering/
+
 |   |-- Swati_Anand_Clustering.ipynb
+
 |   |-- Swati_Anand_Clustering.pdf
+
