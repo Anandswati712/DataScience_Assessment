@@ -1,29 +1,41 @@
-This repository contains the deliverables for the eCommerce Transactions Analysis and Modeling assignment. The project involves three tasks: Exploratory Data Analysis (EDA), building a Lookalike Model, and performing Customer Segmentation using clustering techniques. The dataset consists of three CSV files: Customers.csv, Products.csv, and Transactions.csv, which provide information on customers, products, and transactions, respectively.
+This repository contains the deliverables for the eCommerce Transactions Analysis and Modeling assignment. The project involves three tasks: Exploratory Data Analysis (EDA), building a Lookalike Model, and performing Customer Segmentation using clustering techniques. The dataset consists of three CSV files: Customers.csv, Products.csv, and Transactions.csv, which provide information on customers, products, and transactions respectively.
 
 Dataset Description
 
 1. Customers.csv
 
 CustomerID: Unique identifier for each customer.
+
 CustomerName: Name of the customer.
+
 Region: Continent where the customer resides.
+
 SignupDate: Date when the customer signed up.
 
 2. Products.csv
 
 ProductID: Unique identifier for each product.
+
 ProductName: Name of the product.
+
 Category: Product category.
+
 Price: Product price in USD.
 
 3. Transactions.csv
 
 TransactionID: Unique identifier for each transaction.
+
 CustomerID: ID of the customer who made the transaction.
+
 ProductID: ID of the product sold.
+
 TransactionDate: Date of the transaction.
+
 Quantity: Quantity of the product purchased.
+
 TotalValue: Total value of the transaction.
+
 Price: Price of the product sold.
 
 Tasks
@@ -34,7 +46,9 @@ Perform EDA on the provided dataset.
 Derive business insights from the analysis.
 
 Deliverables:
+
 Swati_Anand_EDA.ipynb: Jupyter Notebook containing EDA code.
+
 Swati_Anand_EDA.pdf: PDF report summarizing the insights
 
 Task 2: Lookalike Model
